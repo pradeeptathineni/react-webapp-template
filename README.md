@@ -1,2 +1,2 @@
 # react-webapp-template
-A foundation for a React web application
+A simple foundation to start out a React web application
