@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 To run the express web-server (where we hit APIs).<br />
 Use [http://localhost:3010](http://localhost:3010) to hit various endpoints.
-/hibp -- List of major breaches sourced from HaveIBeenPwned
+/example -- JSON response with a result of colors
 
 The page will reload if you make edits.<br />
 You will also see any web-server errors in the console.
@@ -32,7 +32,7 @@ Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Your app is ready to be deployed! Note that once the build is complete, only `npm run estart` is needed to run the full React/Express suite.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
