@@ -60,8 +60,8 @@ const Navigation = (navigationProps) => (
 
 const Footer = () => (
   <div id="Footer">
-    <span>This website uses HaveIBeenPwned and other sources</span>
-    <span>Last Published April 2020, © AP Inc.</span>
+    <span>This website uses Example and other sources</span>
+    <span>Last Published Example 2020, © Example Inc.</span>
   </div>
 );
 
