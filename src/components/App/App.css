@@ -1,0 +1,126 @@
+#Logo {
+  margin: 0 15px 5px 5px;
+  font-size: 30px;
+  color: white;
+}
+
+#Navigation {
+  font-variant: small-caps;
+}
+
+#Navigation * {
+  transition: all 800ms;
+}
+
+#Navigation .selected {
+  box-shadow: 0 0 1px 1px #1a1e21;
+}
+
+#Navigation .navbar-nav a {
+  margin: 0px 5px;
+}
+
+.dropdown-menu a {
+  font-size: 10pt !important;
+  width: 95%;
+}
+
+.nav-link:focus {
+  /* font-weight: 500; */
+}
+
+#nav-pathing {
+  padding: 1px 3px 2px 3px;
+  width: 100%;
+  line-height: 1;
+  position: absolute;
+  left: 0px;
+  bottom: -19px;
+  background-color: white !important;
+  font-size: 10;
+}
+
+#nav-pathing * {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#Content {
+  padding: 20px;
+  padding-top: 80px;
+  background-color: lightgrey;
+  color: #343a40;
+  /* border: 0 10px 0 10px solid #343a40; */
+}
+
+#Footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  font-size: 8pt;
+  padding: 5px;
+}
+
+#Footer span {
+  display: block;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+table {
+  word-wrap: break-word;
+  color: #343a40 !important;
+  border-collapse: collapse !important;
+}
+
+table tr {
+  cursor: pointer;
+}
+
+.breach-name {
+  width: 15%;
+}
+
+.breach-name-span {
+  padding: 25px;
+  line-height: 2;
+  font-size: 20pt;
+  display: inline-block;
+  text-align: center;
+}
+
+.breach-mention,
+.pastes-mention {
+  padding: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.breach-date {
+  width: 15%;
+}
+
+.breach-description {
+  width: 70%;
+  overflow: scroll !important;
+}
+
+.row {
+  margin: auto;
+}
+
+[class^="col-"],
+.form-label {
+  /* background-color: yellow !important; */
+  margin: auto !important;
+  vertical-align: middle;
+}
+
+button,
+button:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
